@@ -1,0 +1,48 @@
+body{
+	background-color: #ede9d9;
+}
+
+.done{
+	text-decoration: line-through;
+}
+
+#userinput{
+	padding-left: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border:1px solid chocolate;
+	border-radius: 10px;
+	font-size:1em;
+
+}
+ #userbutton{
+ 	cursor: pointer;
+ 	border:3px solid;
+ 	border-radius: 5px;
+ 	background-color: chocolate;
+ 	padding-left: 5px;
+	padding-top: 3px;
+	padding-bottom: 2px;
+ }
+
+
+ #userbutton:hover{
+ 	background-color: mediumturquoise;
+ }
+
+
+ li{
+ 	font-size:25px;
+ 	padding-bottom :10px;
+ }
+ .todobuttons{
+ 	
+ 	cursor:pointer;
+ 	background-color: chocolate;
+ 	margin-left: 2vh;
+ 	height:20px;
+
+ }
+.todobuttons:hover{
+	background-color: mediumturquoise;
+}
